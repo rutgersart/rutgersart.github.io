@@ -233,7 +233,8 @@ body {
 }
 
 #slide-1 h1 {
-	padding-top: 80px;
+	padding-top: 45px;
+	padding-bottom: 0px;
 }
 
 @media (max-width: 991px) {
@@ -302,7 +303,7 @@ body {
 }
 
 #slide-2 {
-	background-color: green;
+	background-color: #008000;	/* #008000 , #34495e  */
 	color: #e4e6e5;
 	padding-top: 40px;
 }
@@ -440,8 +441,15 @@ body {
 #slide-4 {
 	background-color: #34495e;
 	color: #e4e6e5;
-	padding-top: 90px;
+	padding-top: 20px;
+	padding-bottom: 0px !important;
+
 }
+	.subtitle-row {
+		padding-bottom: 25px;
+		padding-top: 0px;
+		text-align: center;
+	}*/
 
 #slide-4 i {
 		font-size: 80px;
@@ -452,14 +460,14 @@ body {
 #slide-5 {
 	background-color: #f39c12;
 	color: #e4e6e5;
-	padding-top: 90px;
+	padding-top: 50px;
 }
 
 #slide-6 {
 	background-color: #2f2f2f;
 	color: #e4e6e5;
-	padding-bottom: 50px;
-	padding-top: 90px;
+	padding-bottom: 30px;
+	padding-top: 10px;
 }
 
 @media (max-width: 767px) {
